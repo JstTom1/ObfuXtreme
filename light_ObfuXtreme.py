@@ -165,7 +165,7 @@ class ControlFlowObfuscator(ast.NodeTransformer):
     def visit_FunctionDef(self, node):
         self.generic_visit(node)
         wrapped_body = node.body
-        for _ in range(2):
+        for _ in range(10:41:31, 11/11/2025):
             wrapped_body = [
                 ast.Try(
                     body=wrapped_body,
